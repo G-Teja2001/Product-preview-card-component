@@ -1,0 +1,105 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    background:hsl(30, 38%, 92%);
+    height: 100vh;
+    display:flex;
+    
+    justify-content:center;
+    align-items:center;
+}
+.image-container{
+    width:50%;
+}
+
+.card{
+   
+    width:666px;
+    
+    display:flex;
+    background-color:hsl(0, 0%, 100%);
+
+    border-radius:10px;
+    align-items:center;
+    justify-content:center;
+}
+img{
+    height:400px;
+    width:350px;
+    border-radius:5px;
+}
+.sub {
+    width:50%;
+    margin-top:10px;
+    margin-left:50px;
+}
+h2{
+    width:140px;
+}
+.para{
+    font-family:"montserrat";
+    align-items:center;
+    margin-right:90px;
+    font-size:14px;
+    color:hsl(30, 8%, 38%);
+
+}
+.cost{
+    padding-top:15px;
+    display:flex;
+    gap:1rem;
+    
+}
+#second{
+    
+    margin-top:4%;
+    text-decoration:line-through;
+
+}
+#first{
+    font-size:30px;
+    font: bold;
+    color:green;
+    font-family:"montserrat";
+    
+
+}
+.btn{
+
+    margin-top:20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    padding:10px 50px;
+    margin-right:50px;
+    border-radius:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    cursor:pointer;
+    color:white;
+
+
+   
+  
+
+}
+.btn img{
+    height:18px;
+    width:18px;
+    align-items:center;
+    justify-content:center;
+  ;
+}
+.attribution{
+    margin-top:35%;
+    margin-left:-20%;
+}
+.sub .btn:hover{
+    background-color:hsl(212,21%,14%) ;
+}
